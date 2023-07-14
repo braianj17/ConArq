@@ -1,0 +1,139 @@
+body{
+    margin-top: 50px;
+    background-image: url("../images/texturaarquitectura.png");
+    background-attachment: fixed;
+    background-position: center;
+
+
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #91268f;
+}
+
+
+
+.imagen1{
+    background: url("../images/arquitectura_phone.jpg");
+    background-repeat: no-repeat;
+    background-image:cover;
+    background-position:top;
+}
+
+.arqui{
+    width: 108px;
+}
+.titulo{
+    width: 105px;
+}
+
+.uvplogo{
+    margin-top: 8rem;
+}
+.informeslogo{
+    width: 85px;
+    margin-top: 8rem;
+}
+
+.fechalogo{
+    width: 30px;
+    margin-top: 8rem;
+}
+img{
+    margin: auto;
+}
+#redes{
+    width: 10px;
+    margin: 0px;
+  
+}
+
+
+/*--- Tablet --*/
+
+@media screen and (min-width:768px){
+    .imagen1{
+        background: url("../images/arquitectura_tablet.jpg");
+        background-repeat: no-repeat;
+        background-image:cover;
+        background-position:top;
+    }
+
+    .fechalogo{
+        width: 50px;
+        margin-top: 20rem;
+    }
+
+    .informeslogo{
+        width: 100px;
+        margin-top: 20rem;
+    }
+
+    .uvplogo{
+        width: 150px;
+        margin-top: 20rem;
+    }
+
+    #redes{
+    width: 15px;
+  
+}
+}
+
+/*--- Desktop 1440 --*/
+
+@media screen and (min-width:1440px){
+    .imagen1{
+        background: url("../images/Arquitectura_slider_completo.jpg");
+        background-repeat: no-repeat;
+        background-image:cover;
+        background-position:top;
+    }
+
+    .arqui{
+        width:338px;
+    }
+    .titulo{
+        width: 519px;
+    }
+
+    .uvplogo{
+        width: 353px;
+        margin-top: 45rem;
+    }
+    .informeslogo{
+        width: 246px;
+        margin-top: 45rem;
+    }
+
+    .fechalogo{
+        width: 125px;
+        margin-top: 45rem;
+    }
+
+    #redes{
+        width: 30px;
+    }
+
+}
+
+
+.footer{
+    background-image: url("../images/pleca_footer.png");
+    background-position:center top;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 300px;
+    background-size: cover;
+    color: white;
+    padding-top: 5em;
+}
+
+
+
+
+
